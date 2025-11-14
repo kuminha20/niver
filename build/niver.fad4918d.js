@@ -1,0 +1,2 @@
+AOS.init();const dataDoEvento=new Date("Feb 13, 2026 18:00:00"),timeStampDoEvento=dataDoEvento.getTime(),contaAsHoras=setInterval(function(){let e=timeStampDoEvento-new Date().getTime(),t=Math.floor(e/864e5),o=Math.floor(e%864e5/36e5),n=Math.floor(e%36e5/6e4),a=Math.floor(e%6e4/1e3);document.getElementById("contador").innerHTML=`${t}d ${o}h ${n}m ${a}s`,e<0&&(clearInterval(contaAsHoras),document.getElementById("contador").innerHTML="O evento já começou!")},1e3);
+//# sourceMappingURL=niver.fad4918d.js.map
